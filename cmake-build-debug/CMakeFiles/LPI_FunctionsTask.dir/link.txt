@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/LPI_FunctionsTask.dir/programa1.c.o  -o LPI_FunctionsTask 
