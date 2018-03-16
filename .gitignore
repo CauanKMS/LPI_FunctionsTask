@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+#Some unused files, .idea (and to not ignore a .gitignore)
+.*
+cmake-build-debug/
+CMakeLists.txt
+!/.gitignore
