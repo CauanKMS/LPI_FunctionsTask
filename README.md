@@ -1,1 +1,0 @@
-#LPI - Functions Task
