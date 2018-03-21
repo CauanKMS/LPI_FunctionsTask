@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cauan_kms/Desktop/LPI-Functions-Task/programa1.c">
+		<Unit filename="/home/cauan_kms/Desktop/LPI-Functions-Task/programa2.c">
 			<Option target="LPI_Functions_Task"/>
 		</Unit>
 		<Unit filename="/home/cauan_kms/Desktop/LPI-Functions-Task/CMakeLists.txt">
