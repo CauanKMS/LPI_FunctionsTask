@@ -2,10 +2,13 @@
 #include <math.h>
 #include <ctype.h>
 
-void showEmployeeSalary(double salary){
-    double realSal, taxes;
+void showEmployeeSalary(float salary){
+    //THIS GOTTA CHANGE!!!!
+    float realSal, taxes;
+    taxes = (salary / 100) * 20;
     realSal = salary - taxes;
 
+    printf("\n%2.f\n", realSal);
 
 }
 
@@ -20,11 +23,15 @@ void classifySalary(){
 
 int main() {
     char op;
+    float emSal;
 
     do
     {
         printf("\nMENU"
-               "\nA)IMPOSTO\nB)NOVO SALÁRIO\nC)CLASSIFICAÇÃO\nD)SAIR\n");
+                       "\nA)IMPOSTO"
+                       "\nB)NOVO SALÁRIO"
+                       "\nC)CLASSIFICAÇÃO"
+                       "\nD)SAIR\n");
         op=getchar();
 
         //It must accept only capital letters
@@ -33,7 +40,10 @@ int main() {
         switch(op)
         {
             case 'A':
+                printf("Qual o teu sal.?");
+                scanf("%f", &emSal);
 
+                showEmployeeSalary(emSal);
 
                 break;
 
