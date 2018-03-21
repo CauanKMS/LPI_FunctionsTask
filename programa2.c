@@ -25,25 +25,6 @@ float calculateTaxes(float salary){
 
     }
 
-    /*
-
-    if(salary <= 1903.98){
-        taxes = 0;
-
-    }else if(salary >= 1903.99 && salary <= 2826.65){
-        taxes = 7.5;
-
-    }else if(salary >= 2826.66 && salary <= 3751.05){
-        taxes = 15;
-
-    }else if(salary >= 3751.06 && salary <= 4664.68){
-        taxes = 22.5;
-
-    }else{
-        taxes = 27.5;
-
-    }*/
-
     return taxes;
 }
 
@@ -105,7 +86,6 @@ void classifySalary(float salary){
 
 }
 
-
 int main() {
     char op;
     float emSal;
@@ -150,7 +130,7 @@ int main() {
 
             default:
                 if(op != 'D'){
-                    printf("\nAchou que escolheu a opção certa?\nAchou errado otário.\n");
+                    printf("\nOpção incorreta.\n");
                 }
 
                 break;
