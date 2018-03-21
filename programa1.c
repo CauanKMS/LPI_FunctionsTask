@@ -28,7 +28,14 @@ void area_maior_10 (int lado){
 }
 
 void perim_menor_10 (int lado){
-            
+    int perimeter;
+    perimeter = 4 * lado;
+
+    if(perimeter > 10){
+        printf("\nMaior que 10");
+    }else if(perimeter < 10){
+        printf("\nMenor que 10");
+    }
 
 }
 
@@ -65,6 +72,9 @@ int main()
                 printf("\nLado?");
                 scanf("%d",&la);
                 printf("\nPerimetro = %d",perimetro_quadrado(la));
+
+                perim_menor_10(la);
+
                 break;
 
             case '2':
