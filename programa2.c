@@ -12,7 +12,38 @@ void showEmployeeSalary(float salary){
 
 }
 
-void calculateNewSalary(){
+float increaseSalary(float salary){
+    float increase;
+
+    if(salary > 15000){
+        increase = 10;
+
+    }else if(salary >= 7500 && salary <= 15000){
+        increase = 20;
+
+    }else if(salary >= 1000 && salary < 7500){
+        increase = 30;
+
+    }else{
+        increase = 40;
+
+    }
+
+    return increase;
+}
+
+void calculateNewSalary(float salary){
+    float newSalary, increase;
+
+    increase = increaseSalary(salary);
+
+    newSalary = ((salary / 100) * increase) + salary;
+
+    printf("\n%2.f\n", newSalary);
+
+    /*if(salary > 15000){
+        newSalary = ((salary / 100) * 10) + salary;
+    }*/
 
 }
 
@@ -48,6 +79,10 @@ int main() {
                 break;
 
             case 'B':
+                printf("Qual o teu sal.?");
+                scanf("%f", &emSal);
+
+                calculateNewSalary(emSal);
 
                 break;
 
