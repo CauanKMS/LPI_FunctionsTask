@@ -9,4 +9,10 @@
 /home/cauan_kms/Desktop/LPI-Functions-Task/programa1.c
 stdio.h
 -
+stdlib.h
+-
+math.h
+-
+ctype.h
+-
 

@@ -16,13 +16,21 @@
 
 int perimetro_quadrado(int lado);//s� declara��o
 
+int area_maior_10 (int lado){
+
+}
+
+void perim_menor_10 (int lado){
+
+}
+
 void protectInt(int lado){
     //if()
 }
 
 void area_quadrado(int lado)
 {
-    printf("\narea=%d",lado*lado);
+    printf("\nArea = %d",lado*lado);
 }
 
 float diagonal_quadrado()
@@ -39,25 +47,34 @@ int main()
     int la;
     do
     {
-        printf("\no que deseja:\npERIMETRO\naREA\ndIAGONAL\nsAIR\n");
+        printf("\nO que deseja:\n1)PERIMETRO\n2)AREA\n3)DIAGONAL\n4)SAIR\n");
         op=getchar();
-        op=tolower(op);//mandando para min�sculo
+        //op=tolower(op);//mandando para min�sculo
         switch(op)
         {
-            case 'p':printf("\nlado?");
+            case '1':
+                printf("\nLado?");
                 scanf("%d",&la);
-                printf("\nperi=%d",perimetro_quadrado(la));
+                printf("\nPerimetro = %d",perimetro_quadrado(la));
                 break;
-            case 'a':printf("\nlado?");
+
+            case '2':
+                printf("\nLado?");
                 scanf("%d",&la);
                 area_quadrado(la);
                 break;
 
-            case 'd':printf("\ndiagonal=%.2f",diagonal_quadrado());
+            case '3':
+                printf("\nDiagonal = %.2f",diagonal_quadrado());
                 break;
-            case 's': printf("\n tchau");
+
+            case '4':
+                printf("\n Tchau");
                 break;
-            default:printf("\n op errada");
+
+            default:
+                if(op != '1' || op != '2' || op != '3' || op != '4')
+                printf("op errada\n");
 
         }
     }while(op!='s');
