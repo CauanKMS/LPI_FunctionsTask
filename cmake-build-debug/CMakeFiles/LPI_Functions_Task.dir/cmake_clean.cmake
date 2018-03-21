@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LPI_Functions_Task.dir/programa2.c.o"
+  "CMakeFiles/LPI_Functions_Task.dir/programa3.c.o"
   "LPI_Functions_Task.pdb"
   "LPI_Functions_Task"
 )

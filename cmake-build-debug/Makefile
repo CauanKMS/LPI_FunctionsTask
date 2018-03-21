@@ -123,32 +123,32 @@ LPI_Functions_Task/fast:
 	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/build
 .PHONY : LPI_Functions_Task/fast
 
-programa2.o: programa2.c.o
+programa3.o: programa3.c.o
 
-.PHONY : programa2.o
+.PHONY : programa3.o
 
 # target to build an object file
-programa2.c.o:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa2.c.o
-.PHONY : programa2.c.o
+programa3.c.o:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa3.c.o
+.PHONY : programa3.c.o
 
-programa2.i: programa2.c.i
+programa3.i: programa3.c.i
 
-.PHONY : programa2.i
+.PHONY : programa3.i
 
 # target to preprocess a source file
-programa2.c.i:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa2.c.i
-.PHONY : programa2.c.i
+programa3.c.i:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa3.c.i
+.PHONY : programa3.c.i
 
-programa2.s: programa2.c.s
+programa3.s: programa3.c.s
 
-.PHONY : programa2.s
+.PHONY : programa3.s
 
 # target to generate assembly for a file
-programa2.c.s:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa2.c.s
-.PHONY : programa2.c.s
+programa3.c.s:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa3.c.s
+.PHONY : programa3.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LPI_Functions_Task"
-	@echo "... programa2.o"
-	@echo "... programa2.i"
-	@echo "... programa2.s"
+	@echo "... programa3.o"
+	@echo "... programa3.i"
+	@echo "... programa3.s"
 .PHONY : help
 
 
