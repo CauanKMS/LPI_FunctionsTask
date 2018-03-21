@@ -16,11 +16,19 @@
 
 int perimetro_quadrado(int lado);//s� declara��o
 
-int area_maior_10 (int lado){
+void area_maior_10 (int lado){
+    //int area;
+    //area = lado * lado;
 
+    if(lado > 10){
+        printf("\n%d", 1);
+    }else{
+        printf("\n%d", 0);
+    }
 }
 
 void perim_menor_10 (int lado){
+            
 
 }
 
@@ -45,6 +53,7 @@ int main()
 {
     char op;
     int la;
+    int num;
     do
     {
         printf("\nO que deseja:\n1)PERIMETRO\n2)AREA\n3)DIAGONAL\n4)SAIR\n");
@@ -62,6 +71,11 @@ int main()
                 printf("\nLado?");
                 scanf("%d",&la);
                 area_quadrado(la);
+
+                num = la * la;
+
+                //scanf("%d", num);
+                area_maior_10(num);
                 break;
 
             case '3':
