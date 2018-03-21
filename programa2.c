@@ -2,7 +2,20 @@
 #include <math.h>
 #include <ctype.h>
 
-//void employeeSalary
+void showEmployeeSalary(double salary){
+    double realSal, taxes;
+    realSal = salary - taxes;
+
+
+}
+
+void calculateNewSalary(){
+
+}
+
+void classifySalary(){
+
+}
 
 
 int main() {
@@ -11,7 +24,7 @@ int main() {
     do
     {
         printf("\nMENU"
-               "\nA)SALARY PAYMENT\nB)SALARY INCREASE\nC)SALARY CLASSIFICATION\nD)EXIT\n");
+               "\nA)IMPOSTO\nB)NOVO SALÁRIO\nC)CLASSIFICAÇÃO\nD)SAIR\n");
         op=getchar();
 
         //It must accept only capital letters
