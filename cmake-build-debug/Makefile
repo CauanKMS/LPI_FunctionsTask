@@ -123,33 +123,6 @@ LPI_Functions_Task/fast:
 	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/build
 .PHONY : LPI_Functions_Task/fast
 
-programa4.o: programa4.c.o
-
-.PHONY : programa4.o
-
-# target to build an object file
-programa4.c.o:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa4.c.o
-.PHONY : programa4.c.o
-
-programa4.i: programa4.c.i
-
-.PHONY : programa4.i
-
-# target to preprocess a source file
-programa4.c.i:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa4.c.i
-.PHONY : programa4.c.i
-
-programa4.s: programa4.c.s
-
-.PHONY : programa4.s
-
-# target to generate assembly for a file
-programa4.c.s:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa4.c.s
-.PHONY : programa4.c.s
-
 programa5.o: programa5.c.o
 
 .PHONY : programa5.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LPI_Functions_Task"
-	@echo "... programa4.o"
-	@echo "... programa4.i"
-	@echo "... programa4.s"
 	@echo "... programa5.o"
 	@echo "... programa5.i"
 	@echo "... programa5.s"

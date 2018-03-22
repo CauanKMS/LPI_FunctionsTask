@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LPI_Functions_Task.dir/programa4.c.o"
   "CMakeFiles/LPI_Functions_Task.dir/programa5.c.o"
   "LPI_Functions_Task.pdb"
   "LPI_Functions_Task"

@@ -37,7 +37,6 @@ int main()
 
             case 'c':
                 printf("\nQuantos litros?\n");
-                scanf("%f", &fuel);
 
                 gasLvl += fuel;
 
