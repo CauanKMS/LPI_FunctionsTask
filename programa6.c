@@ -5,7 +5,7 @@ char tipoCombustivel;
 float valorLitro, quantidadeCombustivel;
 
 void abastecerPorValor(float valor){
-    float gasPut = valor * 0.3;
+    float gasPut = valor * (valorLitro /100);
     quantidadeCombustivel += gasPut;
 
     printf("Quantidade de gasolina colocada no veiculo: %2.f", gasPut);
@@ -13,10 +13,16 @@ void abastecerPorValor(float valor){
 }
 
 void abastecerPorLitro(float litros){
-    float valorLitros = (litros/30) * 100;
+    float valorLitros = (litros/valorLitro) * 100;
 
     printf("Custa: %2.f", valorLitros);
 
+}
+
+void alterarValor(float valor){
+    valorLitro = valor;
+
+    printf("Novo valor: %2.f", valorLitro);
 }
 
 int main()
@@ -56,8 +62,10 @@ int main()
                 break;
 
             case 'c':
-                
+                printf("Quanto deseja colocar?\n");
+                scanf("%f", &valorUser);
 
+                alterarValor(valorUser);
 
                 break;
 
