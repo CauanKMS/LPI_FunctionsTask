@@ -48,11 +48,11 @@ int main()
     do
     {
         printf("\nO que fazer?"
-                       "\na)ENVELHECER"
-                       "\nb)ENGORDAR"
-                       "\nc)EMAGRECER"
-                       "\nd)CRESCER"
-                       "\ne)IMC"
+                       "\na)ABASTECER POR VALOR"
+                       "\nb)VERIFICAR VALOR POR LITRO"
+                       "\nc)ALTERAR VALOR DO LITRO DE GASOLINA"
+                       "\nd)ALTERAR TIPO DE COMBUSTIVEL"
+                       "\ne)ALTERAR QUANTIDADE DE COMBUSTIVEL NA BOMBA"
                        "\nf)SAIR\n");
 
         op = getchar();
