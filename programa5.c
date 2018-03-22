@@ -14,30 +14,40 @@ int envelhecer(int anos){
 */
 
 void envelhecer(int anos){
-    anos += 1;
+    anos += 10;
 
     idade = anos;
     //return anos;
 
 }
 
-float engordar(float kg){
+void engordar(float kg){
+    kg += 5;
+
+    peso = kg;
 
 }
 
-float emagrecer(float kg){
+void emagrecer(float kg){
+    kg -= 1;
+
+    peso = kg;
 
 }
 
-float crescer(int idade, float altura){
-    if(idade < 21){
-        altura += 0.5;
-    }
+void crescer(int idadeVar, float alturaVar){
+    if(idadeVar < 21){
+        alturaVar += 0.5;
+    }else{ alturaVar += 0.1; }
+
+    altura = alturaVar;
 
 }
 
-float imc(float peso, float altura){
+float calculaImc(float peso, float altura){
+    float imc = peso / (altura * altura);
 
+    return imc;
 }
 
 int main()
@@ -72,19 +82,28 @@ int main()
                 break;
 
             case 'b':
-                //peso =
+                engordar(peso);
+
+                printf("%2.f", peso);
 
                 break;
 
             case 'c':
+                emagrecer(peso);
+
+                printf("%2.f", peso);
 
                 break;
 
             case 'd':
+                crescer(idade, altura);
+
+                printf("%2.f", altura);
 
                 break;
 
             case 'e':
+                printf("%2.f", calculaImc(peso, altura));
 
                 break;
 
