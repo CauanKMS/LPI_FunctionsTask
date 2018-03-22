@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/cauan_kms/Desktop/LPI-Functions-Task/programa3.c" "/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/programa3.c.o"
+  "/home/cauan_kms/Desktop/LPI-Functions-Task/programa4.c" "/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/programa4.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

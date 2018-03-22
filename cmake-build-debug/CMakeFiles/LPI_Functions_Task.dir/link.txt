@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/LPI_Functions_Task.dir/programa3.c.o  -o LPI_Functions_Task 
+/usr/bin/cc -g   CMakeFiles/LPI_Functions_Task.dir/programa4.c.o  -o LPI_Functions_Task 
