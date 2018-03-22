@@ -3,6 +3,75 @@
 #include <math.h>
 #include <ctype.h>
 
+void biggestNumber(int n1,
+                  int n2,
+                  int n3,
+                  int n4,
+                  int n5){
+    if(n1 >= n2 && n1 >= n3 && n1 >= n4 && n1 >= n5){
+        printf("\nO maior número é %d\n", n1);
+
+    }else if (n2 >= n1 && n2 >= n3 && n2 >= n4 && n2 >= n5){
+        printf("\nO maior número é %d\n", n2);
+
+    }else if (n3 >= n2 && n3 >= n1 && n3 >= n4 && n3 >= n5){
+        printf("\nO maior número é %d\n", n3);
+
+    }else if (n4 >= n2 && n4 >= n3 && n4 >= n1 && n4 >= n5){
+        printf("\nO maior número é %d\n", n4);
+
+    }else{
+        printf("\nO maior número é %d\n", n5);
+
+    }
+
+}
+
+void smallestNumber(int n1,
+                    int n2,
+                    int n3,
+                    int n4,
+                    int n5){
+    if(n1 <= n2 && n1 <= n3 && n1 <= n4 && n1 <= n5){
+        printf("\nO menor número é %d\n", n1);
+
+    }else if (n2 <= n1 && n2 <= n3 && n2 <= n4 && n2 <= n5){
+        printf("\nO menor número é %d\n", n2);
+
+    }else if (n3 <= n2 && n3 <= n1 && n3 <= n4 && n3 <= n5){
+        printf("\nO menor número é %d\n", n3);
+
+    }else if (n4 <= n2 && n4 <= n3 && n4 <= n1 && n4 <= n5){
+        printf("\nO menor número é %d\n", n4);
+
+    }else{
+        printf("\nO menor número é %d\n", n5);
+
+    }
+
+}
+
+void arithmeticMean(int n1,
+                    int n2,
+                    int n3,
+                    int n4,
+                    int n5){
+    int arit = (n1 + n2 + n3 + n4 + n5)/5;
+
+    printf("\nA média aritmética é %d\n",arit);
+}
+
+/*void median(int n1,
+            int n2,
+            int n3,
+            int n4,
+            int n5){
+    int median[] = {n1, n2, n3, n4, n5};
+
+
+
+}*/
+
 int main()
 {
     char op;
@@ -10,45 +79,62 @@ int main()
 
     do
     {
-        printf("\nO que deseja:\n1)PERIMETRO\n2)AREA\n3)DIAGONAL\n4)SAIR\n");
-        op=getchar();
-        //op=tolower(op);//mandando para min�sculo
+        printf("\nMENU"
+                       "\na)MAIOR NÚMERO"
+                       "\nb)MENOR NÚMERO"
+                       "\nc)MÉDIA ARITMÉTICA"
+                       "\nd)MEDIANA"
+                       "\ne)MODA"
+                       "\nf)SAIR\n");
+
+        op = getchar();
+        op = tolower(op);
+
         switch(op)
         {
-            case '1':
-                printf("\nLado?");
-                scanf("%d",&la);
-                printf("\nPerimetro = %d",perimetro_quadrado(la));
+            case 'a':
+                printf("Digite os 5 números:\n");
+                scanf("%d %d %d %d %d", &n1, &n2, &n3, &n4, &n5);
 
-                perim_menor_10(la);
+                biggestNumber(n1, n2, n3, n4, n5);
 
                 break;
 
-            case '2':
-                printf("\nLado?");
-                scanf("%d",&la);
-                area_quadrado(la);
+            case 'b':
+                printf("Digite os 5 números:\n");
+                scanf("%d %d %d %d %d", &n1, &n2, &n3, &n4, &n5);
 
-                num = la * la;
+                smallestNumber(n1, n2, n3, n4, n5);
 
-                //scanf("%d", num);
-                area_maior_10(num);
                 break;
 
-            case '3':
-                printf("\nDiagonal = %.2f",diagonal_quadrado());
+            case 'c':
+                printf("Digite os 5 números:\n");
+                scanf("%d %d %d %d %d", &n1, &n2, &n3, &n4, &n5);
+
+                arithmeticMean(n1, n2, n3, n4, n5);
+
                 break;
 
-            case '4':
-                printf("\n Tchau");
+            case 'd':
+                printf("Digite os 5 números:\n");
+                scanf("%d %d %d %d %d", &n1, &n2, &n3, &n4, &n5);
+
+                break;
+
+            case 'e':
+                printf("Digite os 5 números:\n");
+                scanf("%d %d %d %d %d", &n1, &n2, &n3, &n4, &n5);
+
                 break;
 
             default:
-                if(op != '1' || op != '2' || op != '3' || op != '4')
+                if(op != 'f') {
                     printf("op errada\n");
+                }
 
         }
-    }while(op!='s');
+    }while(op!='f');
 
     return 0;
 }

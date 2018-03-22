@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/cauan_kms/Desktop/LPI-Functions-Task/programa2.c
+/home/cauan_kms/Desktop/LPI-Functions-Task/programa3.c
 stdio.h
+-
+stdlib.h
 -
 math.h
 -
