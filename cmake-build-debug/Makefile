@@ -150,6 +150,33 @@ programa4.c.s:
 	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa4.c.s
 .PHONY : programa4.c.s
 
+programa5.o: programa5.c.o
+
+.PHONY : programa5.o
+
+# target to build an object file
+programa5.c.o:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.o
+.PHONY : programa5.c.o
+
+programa5.i: programa5.c.i
+
+.PHONY : programa5.i
+
+# target to preprocess a source file
+programa5.c.i:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.i
+.PHONY : programa5.c.i
+
+programa5.s: programa5.c.s
+
+.PHONY : programa5.s
+
+# target to generate assembly for a file
+programa5.c.s:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.s
+.PHONY : programa5.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... programa4.o"
 	@echo "... programa4.i"
 	@echo "... programa4.s"
+	@echo "... programa5.o"
+	@echo "... programa5.i"
+	@echo "... programa5.s"
 .PHONY : help
 
 

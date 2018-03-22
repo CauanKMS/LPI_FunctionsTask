@@ -1,10 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 #include <ctype.h>
-
-float andar(float gasLvl){
-    return gasLvl - 5;
-
-}
 
 int main()
 {
@@ -45,8 +42,12 @@ int main()
 
                 break;
 
-        }
+                /*default:
+                    if(op != 'd') {
+                        printf("OPÇÃO INCORRETA.\n");
+                    }*/
 
+        }
     }while(op!='d');
 
     return 0;
