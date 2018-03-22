@@ -1,20 +1,35 @@
 #include <stdio.h>
 #include <ctype.h>
 
+char nome[20];
+int idade;
+float peso, altura;
+
+/*
+int envelhecer(int anos){
+    anos += 1;
+    return anos;
+
+}
+*/
+
 void envelhecer(int anos){
     anos += 1;
 
-}
-
-void engordar(float kg){
-
-}
-
-void emagrecer(float kg){
+    idade = anos;
+    //return anos;
 
 }
 
-void crescer(int idade, float altura){
+float engordar(float kg){
+
+}
+
+float emagrecer(float kg){
+
+}
+
+float crescer(int idade, float altura){
     if(idade < 21){
         altura += 0.5;
     }
@@ -29,9 +44,9 @@ int main()
 {
     char op;
 
-    char nome[20];
-    int idade;
-    float peso, altura;
+    //char nome[20];
+    //int idade;
+    //float peso, altura;
 
     do
     {
@@ -50,11 +65,14 @@ int main()
         {
             case 'a':
                 envelhecer(idade);
-                printf("", idade);
+
+                //idade = envelhecer(idade);
+                printf("%d", idade);
 
                 break;
 
             case 'b':
+                //peso =
 
                 break;
 
