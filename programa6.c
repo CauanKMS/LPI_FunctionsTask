@@ -1,13 +1,28 @@
 #include <stdio.h>
 #include <ctype.h>
 
-char nome[20];
-int idade;
-float peso, altura;
+char tipoCombustivel;
+float valorLitro, quantidadeCombustivel;
+
+void abastecerPorValor(float valor){
+    float gasPut = valor * 0.3;
+    quantidadeCombustivel += gasPut;
+
+    printf("Quantidade de gasolina colocada no veiculo: %2.f", gasPut);
+
+}
+
+void abastecerPorLitro(float litros){
+    float valorLitros = (litros/30) * 100;
+
+    printf("Custa: %2.f", valorLitros);
+
+}
 
 int main()
 {
-    char op;
+    char op, gasType;
+    float valorUser, litroUser, bombGasLeft;
 
     do
     {
@@ -25,14 +40,24 @@ int main()
         switch(op)
         {
             case 'a':
+                printf("Qual o valor que deseja colocar?\n");
+                scanf("%f", &valorUser);
+
+                abastecerPorValor(valorUser);
 
                 break;
 
             case 'b':
+                printf("Quanto deseja colocar?\n");
+                scanf("%f", &litroUser);
+
+                abastecerPorLitro(litroUser);
 
                 break;
 
             case 'c':
+                
+
 
                 break;
 
