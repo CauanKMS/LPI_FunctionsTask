@@ -57,67 +57,41 @@ include CMakeFiles/LPI_Functions_Task.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LPI_Functions_Task.dir/flags.make
 
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.o: CMakeFiles/LPI_Functions_Task.dir/flags.make
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.o: ../programa5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LPI_Functions_Task.dir/programa5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LPI_Functions_Task.dir/programa5.c.o   -c /home/cauan_kms/Desktop/LPI-Functions-Task/programa5.c
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.o: CMakeFiles/LPI_Functions_Task.dir/flags.make
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.o: ../programa7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LPI_Functions_Task.dir/programa7.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LPI_Functions_Task.dir/programa7.c.o   -c /home/cauan_kms/Desktop/LPI-Functions-Task/programa7.c
 
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LPI_Functions_Task.dir/programa5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cauan_kms/Desktop/LPI-Functions-Task/programa5.c > CMakeFiles/LPI_Functions_Task.dir/programa5.c.i
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LPI_Functions_Task.dir/programa7.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cauan_kms/Desktop/LPI-Functions-Task/programa7.c > CMakeFiles/LPI_Functions_Task.dir/programa7.c.i
 
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LPI_Functions_Task.dir/programa5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cauan_kms/Desktop/LPI-Functions-Task/programa5.c -o CMakeFiles/LPI_Functions_Task.dir/programa5.c.s
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LPI_Functions_Task.dir/programa7.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cauan_kms/Desktop/LPI-Functions-Task/programa7.c -o CMakeFiles/LPI_Functions_Task.dir/programa7.c.s
 
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.requires:
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.requires:
 
-.PHONY : CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.requires
+.PHONY : CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.requires
 
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.provides: CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.requires
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.provides.build
-.PHONY : CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.provides
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.provides: CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.requires
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.provides.build
+.PHONY : CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.provides
 
-CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.provides.build: CMakeFiles/LPI_Functions_Task.dir/programa5.c.o
-
-
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.o: CMakeFiles/LPI_Functions_Task.dir/flags.make
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.o: ../programa6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LPI_Functions_Task.dir/programa6.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LPI_Functions_Task.dir/programa6.c.o   -c /home/cauan_kms/Desktop/LPI-Functions-Task/programa6.c
-
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LPI_Functions_Task.dir/programa6.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cauan_kms/Desktop/LPI-Functions-Task/programa6.c > CMakeFiles/LPI_Functions_Task.dir/programa6.c.i
-
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LPI_Functions_Task.dir/programa6.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cauan_kms/Desktop/LPI-Functions-Task/programa6.c -o CMakeFiles/LPI_Functions_Task.dir/programa6.c.s
-
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.requires:
-
-.PHONY : CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.requires
-
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.provides: CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.requires
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.provides.build
-.PHONY : CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.provides
-
-CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.provides.build: CMakeFiles/LPI_Functions_Task.dir/programa6.c.o
+CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.provides.build: CMakeFiles/LPI_Functions_Task.dir/programa7.c.o
 
 
 # Object files for target LPI_Functions_Task
 LPI_Functions_Task_OBJECTS = \
-"CMakeFiles/LPI_Functions_Task.dir/programa5.c.o" \
-"CMakeFiles/LPI_Functions_Task.dir/programa6.c.o"
+"CMakeFiles/LPI_Functions_Task.dir/programa7.c.o"
 
 # External object files for target LPI_Functions_Task
 LPI_Functions_Task_EXTERNAL_OBJECTS =
 
-LPI_Functions_Task: CMakeFiles/LPI_Functions_Task.dir/programa5.c.o
-LPI_Functions_Task: CMakeFiles/LPI_Functions_Task.dir/programa6.c.o
+LPI_Functions_Task: CMakeFiles/LPI_Functions_Task.dir/programa7.c.o
 LPI_Functions_Task: CMakeFiles/LPI_Functions_Task.dir/build.make
 LPI_Functions_Task: CMakeFiles/LPI_Functions_Task.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable LPI_Functions_Task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LPI_Functions_Task"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LPI_Functions_Task.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +99,7 @@ CMakeFiles/LPI_Functions_Task.dir/build: LPI_Functions_Task
 
 .PHONY : CMakeFiles/LPI_Functions_Task.dir/build
 
-CMakeFiles/LPI_Functions_Task.dir/requires: CMakeFiles/LPI_Functions_Task.dir/programa5.c.o.requires
-CMakeFiles/LPI_Functions_Task.dir/requires: CMakeFiles/LPI_Functions_Task.dir/programa6.c.o.requires
+CMakeFiles/LPI_Functions_Task.dir/requires: CMakeFiles/LPI_Functions_Task.dir/programa7.c.o.requires
 
 .PHONY : CMakeFiles/LPI_Functions_Task.dir/requires
 

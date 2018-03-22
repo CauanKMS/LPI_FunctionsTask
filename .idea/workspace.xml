@@ -33,7 +33,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be68fb82-44d3-47de-89ed-75eae6182434" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/programa6.c" afterPath="$PROJECT_DIR$/programa6.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/programa7.c" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LPI_Functions_Task.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LPI_Functions_Task.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/LPI_Functions_Task.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="programa6.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/programa6.c">
+      <file leaf-file-name="programa7.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/programa7.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="54" column="70" lean-forward="false" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+            <state relative-caret-position="18">
+              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -91,10 +102,11 @@
         <option value="$PROJECT_DIR$/programa1.c" />
         <option value="$PROJECT_DIR$/programa2.c" />
         <option value="$PROJECT_DIR$/programa3.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/programa4.c" />
         <option value="$PROJECT_DIR$/programa5.c" />
         <option value="$PROJECT_DIR$/programa6.c" />
+        <option value="$PROJECT_DIR$/programa7.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -186,12 +198,12 @@
       <workItem from="1521595120306" duration="1944000" />
       <workItem from="1521663635955" duration="526000" />
       <workItem from="1521665668434" duration="10131000" />
-      <workItem from="1521676331446" duration="7116000" />
+      <workItem from="1521676331446" duration="7475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22778000" />
+    <option name="totallyTimeSpent" value="23137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="715" extended-state="6" />
@@ -361,6 +373,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/programa6.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="54" column="70" lean-forward="false" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -379,10 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programa6.c">
+    <entry file="file://$PROJECT_DIR$/programa7.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="54" column="70" lean-forward="false" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+        <state relative-caret-position="18">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

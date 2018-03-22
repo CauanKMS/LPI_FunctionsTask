@@ -123,59 +123,32 @@ LPI_Functions_Task/fast:
 	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/build
 .PHONY : LPI_Functions_Task/fast
 
-programa5.o: programa5.c.o
+programa7.o: programa7.c.o
 
-.PHONY : programa5.o
-
-# target to build an object file
-programa5.c.o:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.o
-.PHONY : programa5.c.o
-
-programa5.i: programa5.c.i
-
-.PHONY : programa5.i
-
-# target to preprocess a source file
-programa5.c.i:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.i
-.PHONY : programa5.c.i
-
-programa5.s: programa5.c.s
-
-.PHONY : programa5.s
-
-# target to generate assembly for a file
-programa5.c.s:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa5.c.s
-.PHONY : programa5.c.s
-
-programa6.o: programa6.c.o
-
-.PHONY : programa6.o
+.PHONY : programa7.o
 
 # target to build an object file
-programa6.c.o:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa6.c.o
-.PHONY : programa6.c.o
+programa7.c.o:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa7.c.o
+.PHONY : programa7.c.o
 
-programa6.i: programa6.c.i
+programa7.i: programa7.c.i
 
-.PHONY : programa6.i
+.PHONY : programa7.i
 
 # target to preprocess a source file
-programa6.c.i:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa6.c.i
-.PHONY : programa6.c.i
+programa7.c.i:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa7.c.i
+.PHONY : programa7.c.i
 
-programa6.s: programa6.c.s
+programa7.s: programa7.c.s
 
-.PHONY : programa6.s
+.PHONY : programa7.s
 
 # target to generate assembly for a file
-programa6.c.s:
-	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa6.c.s
-.PHONY : programa6.c.s
+programa7.c.s:
+	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/programa7.c.s
+.PHONY : programa7.c.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LPI_Functions_Task"
-	@echo "... programa5.o"
-	@echo "... programa5.i"
-	@echo "... programa5.s"
-	@echo "... programa6.o"
-	@echo "... programa6.i"
-	@echo "... programa6.s"
+	@echo "... programa7.o"
+	@echo "... programa7.i"
+	@echo "... programa7.s"
 .PHONY : help
 
 
