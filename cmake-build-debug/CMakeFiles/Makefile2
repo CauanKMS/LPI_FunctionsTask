@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug
 CMakeFiles/LPI_Functions_Task.dir/all:
 	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/depend
 	$(MAKE) -f CMakeFiles/LPI_Functions_Task.dir/build.make CMakeFiles/LPI_Functions_Task.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LPI_Functions_Task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target LPI_Functions_Task"
 .PHONY : CMakeFiles/LPI_Functions_Task.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/LPI_Functions_Task.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LPI_Functions_Task.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LPI_Functions_Task.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cauan_kms/Desktop/LPI-Functions-Task/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LPI_Functions_Task.dir/rule
