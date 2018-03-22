@@ -2,11 +2,12 @@
 #include <ctype.h>
 
 char tipoCombustivel;
-float valorLitro, quantidadeCombustivel;
+float valorLitro, quantidadeCombustivel, bombGasLeft;
 
 void abastecerPorValor(float valor){
     float gasPut = valor * (valorLitro /100);
     quantidadeCombustivel += gasPut;
+    bombGasLeft -= gasPut;
 
     printf("Quantidade de gasolina colocada no veiculo: %2.f", gasPut);
 
@@ -25,10 +26,24 @@ void alterarValor(float valor){
     printf("Novo valor: %2.f", valorLitro);
 }
 
+void alterarCombustivel(char c){
+    tipoCombustivel = c;
+
+    printf("Novo tipo de combustivel: %c", c);
+
+}
+
+void alterarQuantidadeCombustivel(float qtdComb){
+    bombGasLeft += qtdComb;
+
+    printf("Quantidade colocada: %2.f", qtdComb);
+
+}
+
 int main()
 {
     char op, gasType;
-    float valorUser, litroUser, bombGasLeft;
+    float valorUser, litroUser;
 
     do
     {
@@ -70,10 +85,18 @@ int main()
                 break;
 
             case 'd':
+                printf("Qual o tipo de combustivel?\n");
+                gasType = getchar();
+
+                alterarCombustivel(gasType);
 
                 break;
 
             case 'e':
+                printf("Quanto deseja colocar?\n");
+                scanf("%f", &litroUser);
+
+                alterarQuantidadeCombustivel(litroUser);
 
                 break;
 
